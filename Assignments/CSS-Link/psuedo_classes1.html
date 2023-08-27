@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Psuedo class</title>
+        <style>
+            body{
+                background-color: lightblue;
+                text-align: center;
+            }
+            .container{
+                grid-template: repeat(2,200px)/repeat(4,200px);
+                display: grid;
+                column-gap: 10px;
+                row-gap: 10px;
+                justify-content: center;
+                align-content: center;
+            }
+            
+            .grid{
+                
+                font-size: x-large;
+                padding: 50px;
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>Projects</h1>
+            <div class="container">
+                <div class="grid_img"><img src="https://pbs.twimg.com/profile_images/1220067947798024192/30eZhfxx_400x400.png" height="200px" width="200px"></div>
+                <div class="grid">WEB DESIGN</div>
+                <div class="grid">CHAT BOTS</div>
+                <div class="grid">GAME DESIGN</div>
+                <div class="grid">TEXT ANALYSIS</div>
+                <div class="grid">JAVA SCRIPT</div>
+                <div class="grid">DATA PRIVACY</div>
+                <div class="grid_img"><img src="https://pbs.twimg.com/profile_images/1220067947798024192/30eZhfxx_400x400.png" height="200px" width="200px"></div>
+            </div>
+        </section>
+    </body>
+</html>

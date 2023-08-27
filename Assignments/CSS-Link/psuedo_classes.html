@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Psuedo Element</title>
+        <style>
+            a{
+                display: block;
+            }
+            div{
+                font-size: 30px;
+            }
+            a:link{
+                color: rgb(9, 36, 242);
+            }
+            a:visited{
+                color: violet;
+            }
+            a:hover{
+                color: lawngreen;
+            }
+            h1:first-child{
+                background-color:red;
+                color: aliceblue;
+            }
+            a:nth-child(even){
+                background-color: black;
+            }
+            a:nth-child(odd){
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>Most visited websites</h1>
+            <div>
+                <a href="https://www.youtube.com" target="_blank">YouTube</a>
+                <a href="https://www.w3schools.com/css/css3_backgrounds.asp" target="_blank">CSS_Background</a>
+                <a href="https://github.com/satheshj" target="_blank">Github</a>
+                <a href="https://www.javatpoint.com/mysql-create-table" target="_blank">JavaPoint</a>
+                <a href="https://www.google.com/" target="_blank">Google</a>
+            </div>
+        </section>
+    </body>
+</html>
