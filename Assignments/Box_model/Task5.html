@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                background-color: rgb(7, 119, 96);
+            }
+
+            nav {
+                margin-left: 800px;
+            }
+
+            a {
+                color: whitesmoke;
+                text-decoration: none;
+                margin: 10px;
+            }
+
+            h1 {
+                margin-top: -1%;
+                color: whitesmoke;
+            }
+
+            h2 {
+                text-align: center;
+                color: whitesmoke;
+                font-size: xx-large;
+                margin-top: 10%;
+            }
+
+            p {
+                text-align: center;
+                font-weight: bold;
+                color: whitesmoke;
+                margin-top: 2%;
+            }
+
+            .r1 {
+                font-size: larger;
+            }
+
+            button {
+                background-color: rgb(7, 119, 96);
+                color: whitesmoke;
+                border: 2px solid whitesmoke;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="https://www.google.com/search?q=google&sca_esv=560664892&rlz=1C1CHBF_enIN974IN974&ei=MqLsZO_nJeiRseMP9JWliAI&gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&oq=goo&gs_lp=Egxnd3Mtd2l6LXNlcnAiA2dvbyoCCAAyExAuGIoFGLEDGIMBGMcBGNEDGEMyDRAAGIoFGLEDGIMBGEMyDRAAGIoFGLEDGIMBGEMyChAuGIoFGOUEGEMyDRAAGIoFGLEDGIMBGEMyDRAAGIoFGLEDGIMBGEMyBxAAGIoFGEMyDRAuGIoFGMcBGNEDGEMyBxAAGIoFGEMyDRAAGIoFGLEDGIMBGEMyIhAuGIoFGLEDGIMBGMcBGNEDGEMYlwUY3AQY3gQY4ATYAQVIqCBQ-gJYvxJwAngBkAECmAHOAaABnwiqAQUwLjUuMbgBAcgBAPgBAagCFMICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIOEAAY5AIY1gQYsAPYAQHCAhAQLhiKBRjIAxiwAxhD2AECwgIWEC4YigUYxwEY0QMYyAMYsAMYQ9gBAsICChAAGIoFGLEDGEPCAg0QLhiKBRixAxiDARhDwgIFEAAYgATCAgsQABiABBixAxiDAcICBxAuGIoFGEPCAhAQLhiKBRjqAhi0AhhD2AEDwgIQEAAYigUY6gIYtAIYQ9gBA8ICFhAuGIoFGMcBGNEDGOoCGLQCGEPYAQPCAhYQLhgDGI8BGOoCGLQCGIwDGOUC2AEEwgIWEAAYAxiPARjqAhi0AhiMAxjlAtgBBMICBRAuGIAEwgILEC4YigUYsQMYgwHCAhEQLhiABBixAxiDARjHARjRA-IDBBgAIEGIBgGQBhO6BgYIARABGAm6BgYIAhABGAi6BgQIAxgHugYGCAQQARgKugYGCAUQARgU&sclient=gws-wiz-serp">HOME</a>
+            <a href="https://www.google.com/search?q=about+us&sca_esv=560664892&rlz=1C1CHBF_enIN974IN974&ei=PKLsZMvAE7OYseMPkoWG-AE&ved=0ahUKEwjLzpP0u_-AAxUzTGwGHZKCAR8Q4dUDCBA&uact=5&oq=about+us&gs_lp=Egxnd3Mtd2l6LXNlcnAiCGFib3V0IHVzMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgsQABiABBixAxiDATIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjEMVCTA1iGK3ACeAGQAQSYAeYBoAHaD6oBBjAuMTEuMrgBA8gBAPgBAagCFMICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIQEC4YigUYyAMYsAMYQ9gBAcICExAuGIoFGLEDGIMBGMcBGNEDGEPCAg0QABiKBRixAxiDARhDwgIiEC4YigUYsQMYgwEYxwEY0QMYQxiXBRjcBBjeBBjgBNgBAsICEBAAGIoFGOoCGLQCGEPYAQPCAhAQLhiKBRjqAhi0AhhD2AEDwgIaEAAYigUY6gIYtAIYigMYtwMY1AMY5QLYAQPCAhYQABgDGI8BGOoCGLQCGIwDGOUC2AEEwgIWEC4YAxiPARjqAhi0AhiMAxjlAtgBBMICFBAuGIoFGLEDGIMBGMcBGNEDGJECwgIIEAAYigUYkQLCAgsQLhiKBRixAxiDAcICERAuGIAEGLEDGIMBGMcBGNEDwgIjEC4YigUYsQMYgwEYxwEY0QMYkQIYlwUY3AQY3gQY4ATYAQLCAgcQABiKBRhDwgINEC4YigUYxwEY0QMYQ8ICChAAGIoFGLEDGEPCAgsQLhiABBixAxiDAcICCxAAGIoFGLEDGIMBwgINEC4YigUYsQMYgwEYQ8ICCBAuGIAEGLEDwgIKEC4YigUYsQMYQ-IDBBgAIEGIBgGQBgy6BgQIARgIugYGCAIQARgUugYECAMYB7oGBggEEAEYCg&sclient=gws-wiz-serp">ABOUT US</a>
+            <a href="https://www.google.com/search?q=services&sca_esv=560664892&rlz=1C1CHBF_enIN974IN974&ei=l6LsZN79OOeQseMPzqW-iAI&oq=ser&gs_lp=Egxnd3Mtd2l6LXNlcnAiA3NlcioCCAAyBxAAGIoFGEMyChAuGLEDGIoFGEMyCxAuGIAEGLEDGIMBMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMhEQLhiKBRixAxiDARjHARjRAzILEC4YgAQYsQMYgwEyERAuGIAEGLEDGIMBGMcBGNEDMgUQABiABEiLHFCzCVj-DXABeAGQAQCYAfcGoAH8CaoBCTAuMS4xLjYtMbgBAcgBAPgBAagCFMICEBAAGIoFGOoCGLQCGEPYAQHCAhAQLhiKBRjqAhi0AhhD2AEBwgIWEC4YAxiPARjqAhi0AhiMAxjlAtgBAsICFhAAGAMYjwEY6gIYtAIYjAMY5QLYAQLCAgsQABiABBixAxiDAcICERAuGIMBGMcBGLEDGNEDGIAEwgILEAAYigUYsQMYgwHCAgsQLhiABBjHARjRA8ICBRAuGIAEwgILEC4YigUYsQMYgwHiAwQYACBBiAYBugYECAEYB7oGBggCEAEYCg&sclient=gws-wiz-serp">SERVICES</a>
+            <a href="https://www.google.com/search?q=podfolio&sca_esv=560664892&rlz=1C1CHBF_enIN974IN974&ei=s6LsZL3yPNbcseMP5bupgAI&oq=podfo&gs_lp=Egxnd3Mtd2l6LXNlcnAiBXBvZGZvKgIIADIFEAAYgAQyBRAAGIAEMgcQABiABBgKMgcQABiABBgKMgoQABiABBixAxgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKSPwsUIgGWNYhcAF4AZABAJgBwQKgAesHqgEHMC4yLjIuMbgBA8gBAPgBAagCFMICEBAAGIoFGOoCGLQCGEPYAQHCAhYQLhiKBRjHARjRAxjqAhi0AhhD2AEBwgIaEAAYigUY6gIYtAIYigMYtwMY1AMY5QLYAQHCAhYQABgDGI8BGOoCGLQCGIwDGOUC2AECwgIWEC4YAxiPARjqAhi0AhiMAxjlAtgBAsICBxAAGIoFGEPCAg0QABiKBRixAxiDARhDwgILEAAYigUYsQMYgwHCAgsQABiABBixAxiDAcICBRAuGIAEwgILEC4YigUYsQMYgwHCAgsQLhiDARixAxiKBcICDRAuGIoFGMcBGK8BGEPCAhMQLhiKBRixAxiDARjHARjRAxhDwgILEC4YgAQYsQMYgwHCAhQQLhiKBRixAxiDARjHARjRAxiRAsICERAuGIoFGLEDGMcBGNEDGJECwgIQEAAYigUYsQMYgwEYyQMYQ8ICCBAAGIoFGJIDwgIKEAAYigUYsQMYQ8ICIxAuGIoFGLEDGIMBGMcBGNEDGJECGJcFGNwEGN4EGOAE2AEDwgIQEAAYigUYsQMYgwEYsQMYQ8ICCxAuGIAEGMcBGK8BwgINEAAYgAQYsQMYgwEYCuIDBBgAIEGIBgG6BgQIARgHugYGCAIQARgKugYGCAMQARgU&sclient=gws-wiz-serp">PORTFOLIO</a>
+            <a href="https://www.google.com/search?q=testimonial&sca_esv=560664892&rlz=1C1CHBF_enIN974IN974&ei=yqLsZNeiFbmVseMPne-fiAI&oq=test&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHRlc3QqAggBMgsQABiKBRixAxiRAjIOEAAYigUYsQMYgwEYkQIyERAuGIAEGLEDGIMBGMcBGNEDMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyBRAAGIAEMggQABiABBixA0iMIlDSCVi1D3ABeAGQAQCYAfgBoAG2BaoBBTAuMi4yuAEByAEA-AEBqAIKwgIQEAAYigUY6gIYtAIYQ9gBAcICFhAuGIoFGMcBGNEDGOoCGLQCGEPYAQHCAhoQABiKBRjqAhi0AhiKAxi3AxjUAxjlAtgBAcICFhAAGAMYjwEY6gIYtAIYjAMY5QLYAQLCAgsQLhiABBjHARjRA8ICCxAAGIoFGLEDGIMBwgILEC4YigUYsQMYgwHCAhEQLhiKBRixAxjHARjRAxiRAsICCBAAGIoFGJECwgILEAAYgAQYsQMYyQPCAggQABiKBRiSA8ICIBAuGIoFGLEDGMcBGNEDGJECGJcFGNwEGN4EGOAE2AED4gMEGAAgQYgGAboGBAgBGAe6BgQIAhgKugYGCAMQARgU&sclient=gws-wiz-serp">TESTIMONIALS</a>
+            <a href="https://www.google.com/search?q=conduct&sca_esv=560664892&rlz=1C1CHBF_enIN974IN974&ei=5KLsZNrQOYj5seMP09KT-AE&ved=0ahUKEwja0sfEvP-AAxWIfGwGHVPpBB8Q4dUDCBA&uact=5&oq=conduct&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2NvbmR1Y3QyCxAAGIoFGLEDGJECMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyCBAAGIAEGLEDSJ0iUJYHWNYWcAF4AZABAJgBywGgAd0IqgEFMC42LjG4AQPIAQD4AQGoAhTCAhAQABiKBRjqAhi0AhhD2AEBwgIaEAAYigUY6gIYtAIYigMYtwMY1AMY5QLYAQHCAhYQABgDGI8BGOoCGLQCGIwDGOUC2AECwgIWEC4YAxiPARjqAhi0AhiMAxjlAtgBAsICBxAAGIoFGEPCAgsQABiABBixAxiDAcICCxAAGIoFGLEDGIMBwgITEC4YigUYsQMYgwEYxwEY0QMYQ8ICBRAuGIAEwgINEAAYigUYsQMYgwEYQ8ICERAuGIAEGLEDGIMBGMcBGNEDwgILEC4YgAQYsQMYgwHCAgsQLhiKBRixAxiDAcICDhAAGIoFGLEDGIMBGJEC4gMEGAAgQYgGAboGBAgBGAe6BgYIAhABGAo&sclient=gws-wiz-serp">CONTACT</a>
+        </nav>
+        <h1>Sathesh</h1>
+        <h2>Sathesh</h2>
+        <p class="r1">I am W|</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat esse delectus harum quo modi ducimus nulla.<br>Et eum ipsam incidunt dicta non sequi veritatis excepturi ipsa placeat! Assumenda, voluptatem debitis.
+        </p>
+        <center>
+            <button>VIEW MY WORK</button>
+        </center>
+    </body>
+</html>
